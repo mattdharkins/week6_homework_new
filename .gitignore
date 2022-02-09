@@ -1,4 +1,4 @@
 car_collect_env
-__paycache__
+__pycache__
 migrations
 .env
