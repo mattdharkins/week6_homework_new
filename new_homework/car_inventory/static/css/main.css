@@ -3,12 +3,13 @@
 .ct-nav{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 6vh;
 }
 
 /* target main logo image */
 
 .ct-nav img{
-    width: 70%;
+    width: 72%;
     max-width: 100%;
     margin-left: 2vw;
 }
@@ -36,7 +37,7 @@ ul#horizontal-list a:nth-last-child(1){
 
 /* Start of Hero/Header Section */
 #header-text{
-    padding: 2vw;
+    padding: 8vw;
 }
 
 .header-image{
@@ -48,7 +49,7 @@ ul#horizontal-list a:nth-last-child(1){
 /* Start of Middle Section Styles */
 #middle-text{
     text-align: center;
-    padding: 13vh;
+    padding: 3vh;
 }
 
 #middle-text h2{
@@ -63,15 +64,27 @@ ul#horizontal-list a:nth-last-child(1){
 
 #features-section{
     margin: 8vw;
+    text-align: center;
 }
 /* End of Features Section */
 
 /* Community Section Styles */
 #Car-image{
-    width: 50%;
+    width: 75%;
     max-width: 75%;
     margin-left: 3vw;
 }
+
+#community-section{
+    margin: 8vw;
+    text-align:  center;
+}
+
+/* #comm-section-text{
+    margin: 8vw;
+    text-align: left;
+} */
+
 /* End of Community Section */
 
 /* Footer Section Styles */
@@ -100,6 +113,7 @@ ul#horizontal-list a:nth-last-child(1){
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
     clip-path:polygon(0 0, 100% 0, 100% 80vh, 0 100%);
     position: relative;
+    
 }
 
 .header-text{
